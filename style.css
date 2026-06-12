@@ -1,0 +1,203 @@
+/* ==========================================
+   BACKGROUND
+========================================== */
+
+.stApp {
+    background: linear-gradient(
+        135deg,
+        #081c3d,
+        #0b2d5c,
+        #123c73
+    );
+}
+
+/* ==========================================
+   GLOBAL TEXT
+========================================== */
+
+html,
+body,
+p,
+span,
+div,
+label,
+li,
+small {
+    color: white !important;
+}
+
+/* Streamlit text */
+
+.stMarkdown,
+.stMarkdown p,
+.stMarkdown li,
+.stMarkdown div {
+    color: white !important;
+}
+
+/* ==========================================
+   TITLES
+========================================== */
+
+h1 {
+    color: #00e5ff !important;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: white !important;
+}
+
+/* ==========================================
+   SIDEBAR
+========================================== */
+
+section[data-testid="stSidebar"] {
+    background-color: #071529;
+}
+
+section[data-testid="stSidebar"] * {
+    color: white !important;
+}
+
+/* ==========================================
+   METRIC CARDS
+========================================== */
+
+div[data-testid="metric-container"] {
+    background-color: rgba(
+        255,
+        255,
+        255,
+        0.08
+    );
+
+    border-radius: 15px;
+    padding: 15px;
+
+    border: 1px solid #00e5ff;
+}
+
+/* Metric values */
+
+div[data-testid="metric-container"] * {
+    color: white !important;
+}
+
+/* ==========================================
+   BUTTONS
+========================================== */
+
+.stButton > button {
+    background-color: #00e5ff !important;
+    color: black !important;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+/* ==========================================
+   FILE UPLOADER TEXT FIX
+========================================== */
+
+/* Upload label */
+label[data-testid="stWidgetLabel"] {
+    color: #ffffff !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+}
+
+/* Drag & drop box text */
+[data-testid="stFileUploader"] {
+    color: white !important;
+}
+
+[data-testid="stFileUploader"] * {
+    color: white !important;
+}
+
+/* Browse files text */
+[data-testid="stFileUploaderDropzone"] * {
+    color: white !important;
+}
+
+/* Upload container */
+[data-testid="stFileUploaderDropzone"] {
+    background-color: rgba(255,255,255,0.08);
+    border: 2px dashed #00e5ff;
+    border-radius: 12px;
+}
+/* ==========================================
+   TABLES
+========================================== */
+
+table,
+th,
+td {
+    color: white !important;
+}
+
+[data-testid="stTable"] * {
+    color: white !important;
+}
+
+[data-testid="stDataFrame"] * {
+    color: white !important;
+}
+
+/* ==========================================
+   ALERT BOXES
+========================================== */
+
+.stSuccess,
+.stInfo,
+.stWarning,
+.stError {
+    color: white !important;
+    border-radius: 12px;
+}
+
+/* ==========================================
+   RADIO BUTTONS
+========================================== */
+
+div[role="radiogroup"] * {
+    color: white !important;
+}
+
+/* ==========================================
+   CAPTIONS
+========================================== */
+
+[data-testid="stCaptionContainer"] {
+    color: white !important;
+}
+
+/* ==========================================
+   PROGRESS BAR
+========================================== */
+
+.stProgress > div > div > div {
+    background-color: #00e5ff;
+}
+
+/* ==========================================
+   FOOTER
+========================================== */
+
+footer {
+    visibility: hidden;
+}
+
+#MainMenu {
+    visibility: hidden;
+}
+
+header {
+    visibility: visible;
+}
