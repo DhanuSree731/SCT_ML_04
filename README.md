@@ -287,6 +287,4 @@ Develop a hand gesture recognition model that can accurately identify and classi
 **Dhanu Sree**
 Machine Learning Intern – SkillCraft Technology
 
-🔗 **GitHub:** `DhanuSree731`
-
-⭐ If you found this project useful, don't forget to star the repository!
+🔗 **GitHub:** `https://github.com/DhanuSree731/SCT_ML_03.git`
